@@ -26,7 +26,7 @@ function App() {
     let y = x+Number(input2);
     let day = new Date("July 21, 1983 01:15:00").getDay();
     var z = 0;
-    if (day === 6){
+    if (day == 6){
       z = 440-y;
     } else {
       z = 500-y;
@@ -44,7 +44,7 @@ function App() {
       c = a;
     }
     var minu = 0;
-    if (str.length === 1){
+    if (str.length == 1){
       minu = "0"+str;
     } else {
       minu = str;
