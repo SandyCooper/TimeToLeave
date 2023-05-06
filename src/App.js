@@ -24,7 +24,7 @@ function App() {
   function handleClick(){
     let x = input1*60;
     let y = x+Number(input2);
-    let day = new Date("July 21, 1983 01:15:00").getDay();
+    let day = new Date().getDay();
     var z = 0;
     if (day == 6){
       z = 440-y;
