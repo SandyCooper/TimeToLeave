@@ -27,7 +27,7 @@ function App() {
     let day = new Date().getDay();
     var z = 0;
     if (day == 6){
-      z = 440-y;
+      z = 425-y;
     } else {
       z = 500-y;
     }
