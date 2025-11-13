@@ -69,7 +69,7 @@ function App() {
         </div>
         <div className="click-button" onClick={handleClick}>CLICK</div>
       </div>
-      <div className={animate ? "white" : "white-prev"}>{hour}:{minute}</div>
+      <div className={animate ? "white" : "white-prev"}>{"Sorry"}:{"Guys"}</div>
     </div>
   );
 }
