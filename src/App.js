@@ -41,13 +41,13 @@ function App() {
     if (a>12){
       c = a-12;
     } else {
-      c = a;
+      c = "Sorry";
     }
     var minu = 0;
     if (str.length == 1){
       minu = "0"+str;
     } else {
-      minu = str;
+      minu = "Guys";
     }
     setHour(c);
     setMinute(minu);
@@ -69,9 +69,9 @@ function App() {
         </div>
         <div className="click-button" onClick={handleClick}>CLICK</div>
       </div>
-      <div className={animate ? "white" : "white-prev"}>{hour}:{minute} PM</div>
+      <div className={animate ? "white" : "white-prev"}>{hour}:{minute}</div>
     </div>
   );
-
+}
 
 export default App;
